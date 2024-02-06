@@ -1,0 +1,85 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.wrapper {
+  margin-top: 15%;
+}
+
+
+.slider { 
+  
+
+
+  .slider__item {
+    border: 1px solid transparent;
+    background-image: url('../images/slide-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item-link {
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 9px;
+  }
+
+  .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .slick-dots button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    font-size: 0;
+    background-color: #FFF;
+    padding: 0;
+    margin: 0 8px;
+    cursor: pointer;
+  }
+
+  .slick-dots .slick-active button {
+    background-color: #3C4563;
+  }
+
+
+}
+
+
+.fancybox-slide--iframe .fancybox-content {
+  background: #000;
+  opacity: 0.9;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+@import 'media';
+ 
